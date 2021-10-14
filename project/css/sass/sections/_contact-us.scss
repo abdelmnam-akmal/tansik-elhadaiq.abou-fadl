@@ -1,0 +1,58 @@
+.contact-us {
+    .google-map {
+        padding: 0;
+        iframe {
+            height: 450px;
+            width: 100%;
+        }
+    }
+    .contact-info {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        @media #{$maxMobile} {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        > div {
+            i {
+                font-size: 50px;
+                color: $colorSecondry;
+            }
+            p {
+                margin-top: 20px;
+                font-size: 22px;
+                color: $defaultColor;
+            }
+            a {
+                color: $flat555;
+            }
+        }
+    }
+}
+.connect {
+    background-color: $colorSecondry;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .content-social {
+        ul {
+            padding: 0;
+            margin: 0;
+            @extend %center-flex;
+            li {
+                padding-right: 15px;
+                padding-left: 15px;
+                a {
+                    text-decoration: none;
+                    i {
+                        color: $flatFFF;
+                        font-size: 30px;
+                        transition: .4s;
+                        &:hover {
+                            color: $defaultColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

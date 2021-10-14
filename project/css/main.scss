@@ -1,0 +1,24 @@
+// helpers
+@import "sass/helpers/var";
+@import "sass/helpers/extend";
+
+// global edits on body
+@import "sass/global/global";
+
+// components
+@import "sass/components/svgWaves";
+@import "sass/components/whatsApp";
+@import "sass/components/loader";
+
+// layout of page #navbar
+@import "sass/layout/navbar";
+
+// sections on the page
+@import "sass/sections/header";
+@import "sass/sections/who-us";
+@import "sass/sections/portfolio";
+@import "sass/sections/testi";
+@import "sass/sections/contact-us";
+
+// end layout with footer
+@import "sass/layout/footer";

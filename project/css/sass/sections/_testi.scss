@@ -1,0 +1,29 @@
+.testi {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .header-testi {
+        margin-bottom: 15px;
+        span {
+            @extend %h3;
+        }
+    }
+    .count-container {
+        span {
+            font-size: 60px;
+            color: $colorSecondry;
+            @extend %f-bold;
+            position: relative;
+            &:after {
+                content: '+';
+                position: absolute;
+                top: 10px;
+                left: -60px;
+                color: $colorSecondry;
+            }
+        }
+        p {
+            font-size: 19px;
+            color: $defaultColor;
+        }
+    }
+}

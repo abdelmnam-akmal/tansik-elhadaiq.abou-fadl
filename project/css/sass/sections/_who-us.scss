@@ -1,0 +1,21 @@
+.who-us {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    @media #{$maxMobile} {
+        margin-top: 60px;
+    }
+    .who-content {
+        overflow: hidden;
+        .h3 {
+            @extend %h3;
+        }
+        .desc {
+            display: block;
+            padding-right: 30px;
+            font-size: 18px;
+        }
+        &:first-of-type {
+            margin-bottom: 40px;
+        }
+    }
+}
