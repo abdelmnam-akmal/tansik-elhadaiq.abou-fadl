@@ -15,15 +15,6 @@ $(function () {
       $(".nav").removeClass("shadow-nav");
     }
   });
-
-  // loader fade out
-  $(".loader .loader-content").fadeOut(1000);
-  $(".loader").animate(
-    {
-      width: 0,
-    },
-    1000
-  );
 });
 
 /*!
